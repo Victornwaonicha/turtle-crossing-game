@@ -9,8 +9,8 @@ class Player(Turtle):
 
     def __init__(self):
         super().__init__()
-        self .shape("turtle")
-        self.color("black")
+        self.    shape("turtle")
+        self.color("cyan")
         self.penup()
         self.goto(x = 0, y = -280)
         self.setheading(90)
